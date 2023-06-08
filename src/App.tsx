@@ -1,12 +1,15 @@
 import './App.css';
-import Contents from './components/Contents';
+
 import Navbar from './components/Navbar';
+import Intro from './components/Intro';
+import Projects from './components/Projects';
 
 function App() {
   return (
     <>
+      <Intro />
       <Navbar />
-      <Contents />
+      <Projects />
     </>
   );
 }
