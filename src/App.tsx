@@ -10,6 +10,7 @@ function App() {
       <Intro />
       <Navbar />
       <Projects />
+      <div className=" h-24"></div>
     </>
   );
 }
