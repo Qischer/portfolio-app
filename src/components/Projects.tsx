@@ -13,10 +13,10 @@ function Projects() {
       </div>
       <div className="h-3/5 relative m-3">
         <div className="h-full max-w-7xl grid gap-3 grid-cols-2 sm:grid-cols-3 grid-rows-2 m-auto">
-          <div className="rounded-md bg-rose-400"></div>
-          <div className="rounded-md bg-rose-400"></div>
-          <div className="rounded-md bg-rose-400"></div>
-          <div className="rounded-md bg-rose-400"></div>
+          <div className="rounded-md bg-rose-400 hover:bg-orange-300 transition-all ease-in"></div>
+          <div className="rounded-md bg-rose-400 hover:bg-orange-300 transition-all ease-in"></div>
+          <div className="rounded-md bg-rose-400 hover:bg-orange-300 transition-all ease-in"></div>
+          <div className="rounded-md bg-rose-400 hover:bg-orange-300 transition-all ease-in"></div>
         </div>
       </div>
     </div>
