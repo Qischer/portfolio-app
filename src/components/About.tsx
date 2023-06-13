@@ -8,7 +8,7 @@ function About() {
           <div className="md:flex hidden sm:absolute left-3/4 rounded-md w-2/5 h-96 bg-red-50"></div>
         </Parallax>
       </div>
-      <div className="md:hidden static rounded-md w-4/5 m-auto h-1/5 bg-red-100 "></div>
+      <div className="md:hidden mt-3 rounded-md w-4/5 m-auto h-1/5 bg-red-100 "></div>
     </Parallax>
   );
 }
