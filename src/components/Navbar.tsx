@@ -20,8 +20,16 @@ function Navbar() {
                 Mark Nguy
               </p>
             </div>
-            <div className=" text-stone-600 basis-8/12">Contacts</div>
-            <div className=" text-stone-600 basis-2/12">Resume</div>
+            <div className=" text-stone-600 basis-8/12">
+              <p className=" cursor-pointer text-stone-600 hover:text-rose-400 hover:font-bold hover:scale-110 transition-all ease-in">
+                Contact Me!
+              </p>
+            </div>
+            <div className=" text-stone-600 basis-2/12">
+              <p className=" cursor-pointer text-stone-600 hover:text-rose-400 hover:font-bold hover:scale-110 transition-all ease-in">
+                Resume
+              </p>
+            </div>
           </div>
         }
       ></Tile>
