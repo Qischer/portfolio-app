@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import { Parallax } from 'react-scroll-parallax';
+import Socials from './Socials';
 
 function Intro() {
   const diag = [
     'Hi, this is Mark Nguy!',
-    'Hi again! this is Khai Nguy',
-    'Wait, so it is Khai or Mark Nguy?',
+    'Hi again! this is still Khai Nguy',
+    'Oh, hello again! Surprisingly, This is Mark Nguy',
     'Good Question.',
   ];
   const [index, setIndex] = useState(0);
@@ -24,6 +25,7 @@ function Intro() {
           <h2 className="font-serif text-2xl text-orange-200">
             Software Engineer
           </h2>
+          <Socials />
         </Parallax>
       </div>
     </div>

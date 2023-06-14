@@ -4,4 +4,7 @@
 
 @layer components {
 
+  .transition-on {
+    @apply transition-all ease-in-out;
+  }
 }

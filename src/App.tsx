@@ -6,12 +6,12 @@ import Content from './components/Content';
 
 function App() {
   return (
-    <>
+    <main className="bg-orange-50">
       <Intro />
       <Navbar />
       <Content />
       <div className=" h-24"></div>
-    </>
+    </main>
   );
 }
 

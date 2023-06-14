@@ -12,7 +12,7 @@ function Navbar() {
     <header className="sticky w-full top-3 z-10">
       <Tile
         height="h-fit"
-        color="bg-stone-100 bg-opacity-50 hover:bg-opacity-75 backdrop-blur-sm drop-shadow-sm hover:drop-shadow-lg"
+        color="bg-orange-50 bg-opacity-50 backdrop-blur-sm hover:backdrop-blur-lg drop-shadow-md"
         children={
           <div className="p-5 flex flex-row">
             <div className=" text-stone-600 basis-2/12" onClick={scrollTop}>
@@ -22,7 +22,7 @@ function Navbar() {
             </div>
             <div className=" text-stone-600 basis-8/12">
               <p className=" cursor-pointer text-stone-600 hover:text-rose-400 hover:font-bold hover:scale-110 transition-all ease-in">
-                Contact Me!
+                Contact
               </p>
             </div>
             <div className=" text-stone-600 basis-2/12">
