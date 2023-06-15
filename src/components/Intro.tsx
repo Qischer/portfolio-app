@@ -6,8 +6,7 @@ function Intro() {
   const diag = [
     'Hi, this is Mark Nguy!',
     'Hi again! this is still Khai Nguy',
-    'Oh, hello again! Surprisingly, This is Mark Nguy',
-    'Good Question.',
+    'Oh, hello again! Mark Nguy is here',
   ];
   const [index, setIndex] = useState(0);
 

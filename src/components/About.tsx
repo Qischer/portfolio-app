@@ -3,18 +3,20 @@ import { Parallax } from 'react-scroll-parallax';
 function About() {
   return (
     <Parallax speed={-10} className="h-screen">
-      <div className=" static rounded-md w-4/5 m-auto mt-48 h-5/6 bg-[url('/Profile.png')] bg-cover bg-center">
-        <div className=" w-3/5">
-          <h1 className="text-orange-50 font-serif text-left p-10 font-bold text-4xl">
-            {' '}
-            About Me
-          </h1>
-          <p className="text-orange-50 font-serif text-left px-10 text-2xl">
-            {' '}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-            mattis vestibulum sodales. Phasellus nec commodo dolor. Phasellus
-            imperdiet ex et justo varius cursus.
-          </p>
+      <div className=" rounded-md w-4/5 m-auto mt-40 h-5/6 bg-[url('/Profile.png')] bg-cover bg-center relative">
+        <div className=" lg:w-2/5 absolute inset-y-0 flex items-end">
+          <div>
+            <h1 className="text-orange-50 font-serif text-left lg:px-16 px-10 font-bold text-4xl">
+              {' '}
+              About Me
+            </h1>
+            <p className="text-orange-50 font-serif font-semibold text-left sm:px-16 p-10 text-2xl">
+              {' '}
+              I am a Software Engineer with experiences building Web
+              Applications through ReactJs and TypeScript. I'm also a Game
+              developer with experience in Unreal Engine 5 and C++.
+            </p>
+          </div>
         </div>
       </div>
     </Parallax>
