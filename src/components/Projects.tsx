@@ -1,9 +1,42 @@
 function Projects() {
   const thumbnail = [
-    <div className="h-full w-full "></div>,
-    <div className="h-full w-full "></div>,
-    <div className="h-full w-full "></div>,
-    <div className="h-full w-full bg-[url(public/where_tn.png)] bg-rose-100 bg-cover bg-center bg-blend-color-burn hover:bg-rose-200 relative transition-all ease-in-out">
+    <div className="h-full w-full relative">
+      <div className=" lg:w-2/5 absolute inset-y-0 flex items-end">
+        <div>
+          <h1 className="text-stone-700 font-serif text-left lg:px-16 px-10 font-bold text-4xl">
+            {'<This Website/>'}
+          </h1>
+          <p className="text-stone-7000 font-serif text-left sm:px-16 px-10 pb-10 text-2xl">
+            ReactJs
+          </p>
+        </div>
+      </div>
+    </div>,
+    <div className="h-full w-full relative ">
+      <div className=" lg:w-2/5 absolute inset-y-0 flex items-end">
+        <div>
+          <h1 className="text-stone-700 font-serif text-left lg:px-16 px-10 font-bold text-4xl">
+            GT Web Survey
+          </h1>
+          <p className="text-stone-7000 font-serif text-left sm:px-16 px-10 pb-10 text-2xl">
+            ReactJs
+          </p>
+        </div>
+      </div>
+    </div>,
+    <div className="h-full w-full relative ">
+      <div className=" lg:w-2/5 absolute inset-y-0 flex items-end">
+        <div>
+          <h1 className="text-stone-700 font-serif text-left lg:px-16 px-10 font-bold text-4xl">
+            Harbour
+          </h1>
+          <p className="text-stone-7000 font-serif text-left sm:px-16 px-10 pb-10 text-2xl">
+            Maya
+          </p>
+        </div>
+      </div>
+    </div>,
+    <div className="h-full w-full bg-[url(./where_tn.png)] bg-rose-100 bg-cover bg-center bg-blend-color-burn hover:bg-rose-200 relative transition-all ease-in-out">
       <div className=" lg:w-2/5 absolute inset-y-0 flex items-end">
         <div>
           <h1 className="text-orange-50 font-serif text-left lg:px-16 px-10 font-bold text-4xl">
