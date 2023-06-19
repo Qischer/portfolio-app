@@ -3,7 +3,7 @@ import { Parallax } from 'react-scroll-parallax';
 function About() {
   return (
     <Parallax speed={-10} className="h-screen">
-      <div className=" rounded-md w-4/5 m-auto mt-40 h-5/6 bg-[url('/Profile.png')] bg-cover bg-center relative">
+      <div className="border-2 border-stone-700 rounded-md w-fill mx-6 mt-20 h-5/6 bg-[url('/Profile.png')] bg-cover bg-center relative">
         <div className=" lg:w-2/5 absolute inset-y-0 flex items-end">
           <div>
             <h1 className="text-orange-50 font-serif text-left lg:px-16 px-10 font-bold text-4xl">

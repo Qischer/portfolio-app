@@ -1,10 +1,40 @@
 import { Link } from 'react-router-dom';
-import { Parallax } from 'react-scroll-parallax';
 
 function Projects() {
+  const thumbnail = [
+    <div className="h-full w-full "></div>,
+    <div className="h-full w-full "></div>,
+    <div className="h-full w-full "></div>,
+    <div className="h-full w-full bg-[url(public/where_tn.png)] bg-rose-100 bg-cover bg-center bg-blend-color-burn hover:bg-rose-200 relative transition-all ease-in-out">
+      <div className=" lg:w-2/5 absolute inset-y-0 flex items-end">
+        <div>
+          <h1 className="text-orange-50 font-serif text-left lg:px-16 px-10 font-bold text-4xl">
+            {' '}
+            Where
+          </h1>
+          <p className="text-orange-50 font-serif text-left sm:px-16 px-10 pb-10 text-2xl">
+            Unreal Engine 4
+          </p>
+        </div>
+      </div>
+    </div>,
+  ];
+
   return (
-    <div className="h-screen">
-      <div className="h-1/5 relative">
+    <div>
+      <div className="grid auto-rows-[380px] sm:grid-cols-3 gap-4 mx-4">
+        {[...Array(4)].map((_, i) => (
+          <div
+            key={i}
+            className={`row-span-1 overflow-hidden rounded-xl border-2 border-stone-700 bg-rose-100   ${
+              i === 3 || i === 0 ? 'col-span-2' : ''
+            }`}
+          >
+            {thumbnail[i]}
+          </div>
+        ))}
+      </div>
+      {/* <div className="h-1/5 relative">
         <Parallax speed={-2}>
           <div className="h-2/5 absolute inset-x-0 bottom-0 items-center justify-center ">
             <h1 className="text-stone-500 text-6xl">🚀</h1>
@@ -55,7 +85,7 @@ function Projects() {
             </div>
           </Link>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
