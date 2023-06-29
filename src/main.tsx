@@ -5,6 +5,7 @@ import './index.css';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Blog1 from './routes/Blog1.tsx';
+import Blog2 from './routes/Blog2.tsx';
 
 const router = createBrowserRouter([
   {
@@ -13,8 +14,13 @@ const router = createBrowserRouter([
     children: [],
   },
   {
-    path: 'log/:blogId',
+    path: 'log/1',
     element: <Blog1></Blog1>,
+    // errorElement: <ErrorPage />,
+  },
+  {
+    path: 'log/2',
+    element: <Blog2></Blog2>,
     // errorElement: <ErrorPage />,
   },
 ]);

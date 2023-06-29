@@ -1,8 +1,10 @@
 import NavbarBlog from '../components/Blog/NavbarBlog';
+import ScrollToTop from '../components/Utililies/ScrollToTop';
 
 export default function Blog1() {
   return (
     <main className="bg-orange-50">
+      <ScrollToTop />
       <NavbarBlog></NavbarBlog>
       <div className="max-w-2xl mx-auto px-10 py-8">
         <h1 className="text-4xl font-bold mb-4 font-serif">
