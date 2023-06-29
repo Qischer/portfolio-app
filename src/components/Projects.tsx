@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 function Projects() {
-  const urlList = ['/', 'http://crm-grantthornton.com', '/', '/'];
+  const urlList = ['/log/1', 'http://crm-grantthornton.com', '/', '/'];
 
   const thumbnail = [
     <div className="h-full w-full relative">

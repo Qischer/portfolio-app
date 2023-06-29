@@ -6,7 +6,7 @@ function NavbarBlog() {
     <header className="sticky w-full top-3 z-10">
       <Tile
         height="h-fit"
-        color="bg-orange-50 bg-opacity-50 backdrop-blur-sm hover:backdrop-blur-lg drop-shadow-md"
+        color="bg-orange-50 bg-opacity-50 backdrop-blur-sm hover:backdrop-blur-lg drop-shadow-md border-2 border-stone-700"
         children={
           <div className="p-5 flex flex-row">
             <Link to={'/'} className=" text-stone-600 basis-2/12">

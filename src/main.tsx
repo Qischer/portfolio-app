@@ -13,7 +13,7 @@ const router = createBrowserRouter([
     children: [],
   },
   {
-    path: 'blogs/:blogId',
+    path: 'log/:blogId',
     element: <Blog1></Blog1>,
     // errorElement: <ErrorPage />,
   },
