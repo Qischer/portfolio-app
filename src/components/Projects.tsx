@@ -1,7 +1,12 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function Projects() {
-  const urlList = ['/log/1', '/log/2', '/', '/'];
+  const urlList = [
+    "/log/1",
+    "/log/2",
+    "https://khainguy-app.vercel.app/",
+    "https://devpost.com/software/stop-procrastinating-go-to-sleep",
+  ];
 
   const thumbnail = [
     <div className="h-full w-full relative">
@@ -13,10 +18,10 @@ function Projects() {
       <div className=" lg:w-3/5 absolute inset-y-0 flex items-end">
         <div className=" z-5">
           <h1 className="text-stone-700 font-serif text-left lg:px-16 px-10 font-bold text-4xl">
-            {'<This Portfolio/>'}
+            {"<This Portfolio/>"}
           </h1>
-          <p className="text-stone-7000 font-serif text-left sm:px-16 px-10 pb-10 text-2xl">
-            ReactJs
+          <p className="text-stone-7000 font-thin text-left sm:px-16 px-10 pb-10 text-2xl">
+            ReactJs | Vite | TailwindCSS
           </p>
         </div>
       </div>
@@ -34,8 +39,8 @@ function Projects() {
           <h1 className="text-stone-700 font-serif text-left lg:px-16 px-10 font-bold text-4xl">
             GT Web Survey
           </h1>
-          <p className="text-stone-7000 font-serif text-left sm:px-16 px-10 pb-10 text-2xl">
-            ReactJs
+          <p className="text-stone-7000 font-thin text-left sm:px-16 px-10 pb-10 text-2xl">
+            React | Firebase
           </p>
         </div>
       </div>
@@ -44,23 +49,23 @@ function Projects() {
       <div className=" lg:w-2/5 absolute inset-y-0 flex items-end">
         <div>
           <h1 className="text-stone-700 font-serif text-left lg:px-16 px-10 font-bold text-4xl">
-            Harbour
+            My AI persona
           </h1>
-          <p className="text-stone-7000 font-serif text-left sm:px-16 px-10 pb-10 text-2xl">
-            Maya
+          <p className="text-stone-7000 font-thin text-left sm:px-16 px-10 pb-10 text-2xl">
+            NextJs | TailwindCSS | OpenAI
           </p>
         </div>
       </div>
     </div>,
-    <div className="h-full w-full bg-rose-200 bg-cover bg-center bg-blend-color-burn hover:bg-rose-200 relative transition-all ease-in-out">
+    <div className="h-full w-full relative">
       <div className=" lg:w-2/5 absolute inset-y-0 flex items-end">
         <div>
           <h1 className="text-stone-700 font-serif text-left lg:px-16 px-10 font-bold text-4xl">
-            {' '}
-            Where
+            {" "}
+            Stop procrastinating. Go to sleep
           </h1>
-          <p className="text-stone-700 font-serif text-left sm:px-16 px-10 pb-10 text-2xl">
-            Unreal Engine 4
+          <p className="text-stone-700 font-thin text-left sm:px-16 px-10 pb-10 text-2xl">
+            React Native | Expo
           </p>
         </div>
       </div>
@@ -70,11 +75,11 @@ function Projects() {
   return (
     <div>
       <div className="grid auto-rows-[380px] sm:grid-cols-3 gap-4 mx-4">
-        {[...Array(4)].map((_, i) => (
+        {[...Array(thumbnail.length)].map((_, i) => (
           <div
             key={i}
-            className={`row-span-1 overflow-hidden rounded-xl border-2 border-stone-700 bg-gradient-to-r from-rose-200 to-rose-200 hover:to-rose-100 group ${
-              i === 3 || i === 0 ? 'sm:col-span-2' : ''
+            className={`row-span-1 overflow-hidden rounded-xl border-2 border-stone-700 bg-gradient-to-r from-rose-200 to-rose-200 ransition-all ease-in-out hover:to-orange-100 group ${
+              i === 3 || i === 0 ? "sm:col-span-2" : ""
             }`}
           >
             <Link to={urlList[i]}>{thumbnail[i]}</Link>
